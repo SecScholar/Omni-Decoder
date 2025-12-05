@@ -1,0 +1,38 @@
+# --- OS & Environment ---
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Text Editors & IDEs ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+
+# JetBrains / IntelliJ
+.idea/
+*.iml
+
+# --- Project Specifics (Security Safety) ---
+# Ignore binary outputs so we don't commit malware/payloads
+*.bin
+*.exe
+*.dll
+*.so
+
+# Ignore specific output filenames from the script
+decoded.bin
+payload_output.txt
+
+# Ignore logs if you add logging later
+*.log
+
+# Ignore temporary test directories
+tmp/
+test_data/
