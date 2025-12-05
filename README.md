@@ -31,6 +31,7 @@ Omni-Decoder is a standalone Bash script. No dependencies are required other tha
 Clone the repository:
 
 git clone [https://github.com/SecScholar/omni-decoder.git](https://github.com/yourusername/omni-decoder.git)
+
 cd omni-decoder
 
 
