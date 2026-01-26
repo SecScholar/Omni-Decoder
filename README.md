@@ -111,7 +111,7 @@ sudo cp omnidecoder.sh /usr/local/bin/omnidecoder
 # Multi-layer decoding with progress
 ./omnidecoder.sh -s "U0dWc2JHOGdWMjl1ZG1WeQ==" -v
 
-# Batch process files
+# Batch process files (expiremental, please report any issues with this in the issues section)
 for f in *.txt; do ./omnidecoder.sh -f "$f" -q; done
 
 # Integration with other tools
