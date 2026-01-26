@@ -41,7 +41,7 @@ Intelligently identifies and decodes multiple encoding formats automatically:
 ### Recursive Multi-Layer Decoding
 Automatically peels away layers of encoding to reveal plaintext:
 ```
-Input:  WTJocGJGOWtaV2N2ZDI5eWJHUnZiZz09
+Input:  WTJoaGJHeGxibWRs
 Layer 1 (Base64): Y2hhbGxlbmdl
 Layer 2 (Base64): challenge
 Output: challenge ✓
